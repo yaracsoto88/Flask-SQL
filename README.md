@@ -34,6 +34,26 @@ Las columnas que son únicas contienen la palabra unique con valor True.
 
 Tenemos que crear la carpeta sqlite 3 en el disco duro local C: y copiar los archivos extraidos
 ![image](https://user-images.githubusercontent.com/114931679/208467666-60e97ea2-d81d-49b5-b2e2-bcdd2514ddd4.png)
+Ahora podremos abrir sqlite desde cualquier terminal.
+
+Accedemos a la consola Flask con el comando _**flask shell**_ y ejecutamos las instancias
+![image](https://user-images.githubusercontent.com/114931679/208471043-9f5d76a9-d041-428f-9c6d-54e6c8cba082.png)
+
+y ahora accedemos a las tablas
+![image](https://user-images.githubusercontent.com/114931679/208471604-46ff9977-5170-49ee-bdbb-629edc7af49f.png)
+![image](https://user-images.githubusercontent.com/114931679/208471703-66188a63-244a-4caf-b311-846c39b2e7d1.png)
+
+### Desde el tutorial existe una funcion de crear datos. Agregaremos información
+Hacemos un select * from customer; y comprobamos que no hay dato todavía
+![image](https://user-images.githubusercontent.com/114931679/208472626-60d41641-aa52-4644-b910-fc59e7ad171e.png)
+
+Añadiremos la información
+![image](https://user-images.githubusercontent.com/114931679/208475263-a6da35d5-5287-439c-bf0b-1e1c3a975a29.png)
+Comprobamos que se ha añadido correctamente a la base de datos
+![image](https://user-images.githubusercontent.com/114931679/208475788-99d1e16e-8687-4dc4-a661-73d5d0905735.png)
+
+
+
 
 
 
